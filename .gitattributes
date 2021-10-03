@@ -8,3 +8,10 @@ yarn.lock linguist-generated
 
 # Mark any vendored files as having been vendored.
 vendor/* linguist-vendored
+
+* text=auto
+*.c text
+*.h text
+
+*.png binary
+*.jpg binary
