@@ -13,10 +13,18 @@
   </head>
 
   <body>
-  <%= link_to "Home", root_path %>
-  <%= link_to "Leaderboard", pages_leaderboard_path %>
-  <%= link_to "Announcements", announcements_path %>
+    <div class="navbar">
+      <div class="left-navbar">
+        <div class="child_logo"> <p> Logo Here </p> </div>
+      </div> <!-- left-navbar -->
 
-  <%= yield %>
+      <div class="right-navbar">
+        <div class="link"> <%= link_to "Home", root_path %> </div>
+        <div class="link"> <%= link_to "Leaderboard", pages_leaderboard_path %> </div>
+        <div class="link"> <%= link_to "Announcements", announcements_path %> </div>
+      </div> <!-- navbar -->
+    </div>
+
+    <%= yield %>
   </body>
 </html>

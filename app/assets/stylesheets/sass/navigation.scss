@@ -1,0 +1,53 @@
+//classes: navbar, link
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-navbar{
+    padding-right: 10px;
+    width: 18%;
+    min-width: 200px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-content: center;
+
+    .child_logo{
+        padding: 0px 20px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.right-navbar{
+    padding-right: 10px;
+    width: 18%;
+    min-width: 200px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-content: center;
+
+    .link{
+        padding: 0px 20px;
+        height: 40px;
+        //position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .link:hover{
+        cursor: pointer;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #500000;
+    }
+}
+
