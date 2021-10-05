@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  resources :points_events
   get 'pages/leaderboard'
   resources :announcements
   root 'pages#index'
