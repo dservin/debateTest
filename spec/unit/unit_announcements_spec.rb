@@ -1,7 +1,7 @@
 # location: spec/unit/unit_announcemnts.rb
 require 'rails_helper'
 
-RSpec.describe Book, type: :model do
+RSpec.describe Announcement, type: :model do
   subject do
     described_class.new(title: 'Meeting Tommorow', description:'details', date: '2012-12-12', author: 'president')
   end

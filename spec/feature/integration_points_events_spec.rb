@@ -3,11 +3,11 @@ require 'rails_helper'
 
 RSpec.describe 'Writing a points event', type: :feature do
   scenario 'valid inputs' do
-    visit new_announcement_path
+    visit new_points_event_path
     fill_in 'Name', with: 'Debate 1'
     fill_in 'Value', with: '5'
-    click_on 'New Points Event'
-    visit announcements_path
+    click_on 'Create Points Event'
+    visit points_events_path
     expect(page).to have_content('Debate 1')
     expect(page).to have_content('5')
   end
