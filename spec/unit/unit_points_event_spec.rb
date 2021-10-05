@@ -1,7 +1,7 @@
 # location: spec/unit/unit_announcemnts.rb
 require 'rails_helper'
 
-RSpec.describe Book, type: :model do
+RSpec.describe PointsEvent, type: :model do
   subject do
     described_class.new(name: 'Debate 1', value:1)
   end

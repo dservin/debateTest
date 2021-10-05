@@ -32,13 +32,6 @@ ActiveRecord::Schema.define(version: 2021_10_05_011312) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "points", force: :cascade do |t|
-    t.string "name"
-    t.integer "value"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "points_events", force: :cascade do |t|
     t.string "name"
     t.integer "value"
