@@ -14,6 +14,5 @@ RSpec.describe 'Writing an announcement', type: :feature do
     expect(page).to have_content('These are the details')
     expect(page).to have_content('2012-12-12')
     expect(page).to have_content('president')
-
   end
 end
