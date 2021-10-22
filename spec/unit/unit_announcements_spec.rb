@@ -3,7 +3,7 @@ require 'rails_helper'
 
 RSpec.describe Announcement, type: :model do
   subject do
-    described_class.new(title: 'Meeting Tommorow', description:'details', date: '2012-12-12', author: 'president')
+    described_class.new(title: 'Meeting Tommorow', description: 'details', date: '2012-12-12', author: 'president')
   end
 
   it 'is valid with valid attributes' do
